@@ -1,0 +1,214 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC07E88C14F8FA4500DCD6D3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AC07E88B14F8FA4500DCD6D3 /* main.c */; };
+		AC07E88E14F8FA4500DCD6D3 /* JSON_to_MongoDBQuery.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC07E88D14F8FA4500DCD6D3 /* JSON_to_MongoDBQuery.1 */; };
+		AC07E89614F8FA6300DCD6D3 /* cJSON.c in Sources */ = {isa = PBXBuildFile; fileRef = AC07E89414F8FA6300DCD6D3 /* cJSON.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AC07E88514F8FA4500DCD6D3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				AC07E88E14F8FA4500DCD6D3 /* JSON_to_MongoDBQuery.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AC07E88714F8FA4500DCD6D3 /* JSON_to_MongoDBQuery */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JSON_to_MongoDBQuery; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC07E88B14F8FA4500DCD6D3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		AC07E88D14F8FA4500DCD6D3 /* JSON_to_MongoDBQuery.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = JSON_to_MongoDBQuery.1; sourceTree = "<group>"; };
+		AC07E89414F8FA6300DCD6D3 /* cJSON.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cJSON.c; sourceTree = "<group>"; };
+		AC07E89514F8FA6300DCD6D3 /* cJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cJSON.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC07E88414F8FA4500DCD6D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC07E87C14F8FA4500DCD6D3 = {
+			isa = PBXGroup;
+			children = (
+				AC07E88A14F8FA4500DCD6D3 /* JSON_to_MongoDBQuery */,
+				AC07E88814F8FA4500DCD6D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC07E88814F8FA4500DCD6D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC07E88714F8FA4500DCD6D3 /* JSON_to_MongoDBQuery */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC07E88A14F8FA4500DCD6D3 /* JSON_to_MongoDBQuery */ = {
+			isa = PBXGroup;
+			children = (
+				AC07E89414F8FA6300DCD6D3 /* cJSON.c */,
+				AC07E89514F8FA6300DCD6D3 /* cJSON.h */,
+				AC07E88B14F8FA4500DCD6D3 /* main.c */,
+				AC07E88D14F8FA4500DCD6D3 /* JSON_to_MongoDBQuery.1 */,
+			);
+			path = JSON_to_MongoDBQuery;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC07E88614F8FA4500DCD6D3 /* JSON_to_MongoDBQuery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC07E89114F8FA4500DCD6D3 /* Build configuration list for PBXNativeTarget "JSON_to_MongoDBQuery" */;
+			buildPhases = (
+				AC07E88314F8FA4500DCD6D3 /* Sources */,
+				AC07E88414F8FA4500DCD6D3 /* Frameworks */,
+				AC07E88514F8FA4500DCD6D3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSON_to_MongoDBQuery;
+			productName = JSON_to_MongoDBQuery;
+			productReference = AC07E88714F8FA4500DCD6D3 /* JSON_to_MongoDBQuery */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC07E87E14F8FA4500DCD6D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = AC07E88114F8FA4500DCD6D3 /* Build configuration list for PBXProject "JSON_to_MongoDBQuery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC07E87C14F8FA4500DCD6D3;
+			productRefGroup = AC07E88814F8FA4500DCD6D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC07E88614F8FA4500DCD6D3 /* JSON_to_MongoDBQuery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC07E88314F8FA4500DCD6D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC07E88C14F8FA4500DCD6D3 /* main.c in Sources */,
+				AC07E89614F8FA6300DCD6D3 /* cJSON.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AC07E88F14F8FA4500DCD6D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AC07E89014F8FA4500DCD6D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AC07E89214F8FA4500DCD6D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC07E89314F8FA4500DCD6D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC07E88114F8FA4500DCD6D3 /* Build configuration list for PBXProject "JSON_to_MongoDBQuery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC07E88F14F8FA4500DCD6D3 /* Debug */,
+				AC07E89014F8FA4500DCD6D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC07E89114F8FA4500DCD6D3 /* Build configuration list for PBXNativeTarget "JSON_to_MongoDBQuery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC07E89214F8FA4500DCD6D3 /* Debug */,
+				AC07E89314F8FA4500DCD6D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC07E87E14F8FA4500DCD6D3 /* Project object */;
+}
